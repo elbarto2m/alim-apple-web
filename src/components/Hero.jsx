@@ -42,7 +42,7 @@ const Hero = () => {
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
-        <a href="#highlights" className="btn">alim portfolio</a>
+        <a href="https://alim-portfolio.onrender.com" className="btn">alim portfolio</a>
         <p className="font-normal text-xl">tap the button to view my portfolio</p>
       </div>
     </section>
