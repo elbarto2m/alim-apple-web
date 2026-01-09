@@ -10,13 +10,15 @@
 
 body {
   color: white;
-  width: 100dvw;
+  width: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
-  height: 100%;
+  overflow-y: auto;
   background: #000;
   border-color: #3b3b3b;
   user-select: none;
 }
+
 
 canvas {
   touch-action: none;
@@ -34,9 +36,10 @@ canvas {
     @apply flex items-center justify-center
   }
 
-  .nav-height {
-    @apply h-[calc(100vh-60px)]
-  }
+ .nav-height {
+  @apply min-h-[calc(100dvh-60px)];
+}
+
 
   .btn {
     @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue
